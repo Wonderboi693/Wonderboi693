@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://c7ltlr2eklykl"]
+
+[ext_resource type="Script" uid="uid://bb408ou2apocb" path="res://main_menu/main_menu.gd" id="1_3shxk"]
+[ext_resource type="Texture2D" uid="uid://d0bnvs88xk5gu" path="res://background-abstract-pixel-rain/3179878.jpg" id="1_oa53l"]
+[ext_resource type="FontFile" uid="uid://yct0rxgag7pd" path="res://FVF_Fernando_08.ttf" id="2_d3a7t"]
+[ext_resource type="PackedScene" uid="uid://doxj0ewvjwjt4" path="res://option_menu.tscn" id="4_bws42"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3shxk"]
+texture = ExtResource("1_oa53l")
+modulate_color = Color(0.466667, 0.466667, 0.466667, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3a7t"]
+bg_color = Color(0.76662, 0.76662, 0.766619, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.912289, 0.912289, 0.912289, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oa53l"]
+bg_color = Color(0.951305, 0.946004, 0.944311, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.20319, 0.535347, 0.50855, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0.165656, 0.165656, 0.165656, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 3.41)
+
+[node name="main_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3shxk")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_3shxk")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 20
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_d3a7t")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/hover = SubResource("StyleBoxFlat_d3a7t")
+theme_override_styles/normal = SubResource("StyleBoxFlat_oa53l")
+text = "START GAME"
+
+[node name="Button2" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_d3a7t")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/hover = SubResource("StyleBoxFlat_d3a7t")
+theme_override_styles/normal = SubResource("StyleBoxFlat_oa53l")
+text = "OPTION"
+
+[node name="Button3" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_d3a7t")
+theme_override_font_sizes/font_size = 25
+theme_override_styles/hover = SubResource("StyleBoxFlat_d3a7t")
+theme_override_styles/normal = SubResource("StyleBoxFlat_oa53l")
+text = "LEAVE GAME"
+
+[node name="Control2" type="Control" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_d3a7t")
+theme_override_font_sizes/font_size = 50
+text = "The Alchemist Quest"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Option_Menu" parent="." instance=ExtResource("4_bws42")]
+visible = false
+layout_mode = 1
