@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bvvr3s0sb3vai"]
+[gd_scene load_steps=6 format=3 uid="uid://bvvr3s0sb3vai"]
 
 [ext_resource type="FontFile" uid="uid://knq6w7rspvs8" path="res://assets/fonts/FVF Fernando 08.ttf" id="1_cxq8u"]
 [ext_resource type="PackedScene" uid="uid://lhqtysh51o5w" path="res://option/hotkey_rebind_button.tscn" id="2_ktkx1"]
+[ext_resource type="PackedScene" uid="uid://cps4hl2pc7buv" path="res://option/windowed_mode_button.tscn" id="2_up7wt"]
+[ext_resource type="PackedScene" uid="uid://dccsg7pd8axxj" path="res://option/resolution_mode_button.tscn" id="3_2e2ho"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cxq8u"]
 
@@ -19,13 +21,13 @@ anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 121.0
-offset_top = 45.0
-offset_right = -170.0
+offset_top = 36.0
+offset_right = -128.0
 offset_bottom = -55.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
-current_tab = 2
+current_tab = 1
 
 [node name="Sound" type="TabBar" parent="TabContainer"]
 visible = false
@@ -71,7 +73,6 @@ theme_override_fonts/font = ExtResource("1_cxq8u")
 text = "Sound5"
 
 [node name="Graphics" type="TabBar" parent="TabContainer"]
-visible = false
 layout_mode = 2
 metadata/_tab_index = 1
 
@@ -82,33 +83,26 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
 
-[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Graphics/MarginContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="TabContainer/Graphics/MarginContainer"]
 layout_mode = 2
-theme_override_constants/separation = 64
-alignment = 1
 
-[node name="Label" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="TabContainer/Graphics/MarginContainer/ScrollContainer"]
 layout_mode = 2
-text = "qwe12334"
+theme_override_constants/separation = 128
 
-[node name="Label2" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
+[node name="Windowed_Mode_Button" parent="TabContainer/Graphics/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("2_up7wt")]
 layout_mode = 2
-text = "qwe12334"
+size_flags_vertical = 3
 
-[node name="Label3" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
+[node name="Resolution_Mode_Button" parent="TabContainer/Graphics/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_2e2ho")]
 layout_mode = 2
-text = "qwe12334"
-
-[node name="Label4" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "qwe12334"
-
-[node name="Label5" type="Label" parent="TabContainer/Graphics/MarginContainer/VBoxContainer"]
-layout_mode = 2
-text = "qwe12334"
 
 [node name="Controls" type="TabBar" parent="TabContainer"]
+visible = false
 layout_mode = 2
 metadata/_tab_index = 2
 
