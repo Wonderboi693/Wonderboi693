@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://bcu870nfl2jup"]
+[gd_scene load_steps=6 format=3 uid="uid://bcu870nfl2jup"]
 
 [ext_resource type="Script" uid="uid://b4trmm076ekhs" path="res://main_menu/main_menu.gd" id="1_3shxk"]
 [ext_resource type="Texture2D" uid="uid://ykh3k41rnwy8" path="res://assets/background/3179878.jpg" id="1_d3a7t"]
 [ext_resource type="FontFile" uid="uid://knq6w7rspvs8" path="res://assets/fonts/FVF Fernando 08.ttf" id="2_3shxk"]
 [ext_resource type="PackedScene" uid="uid://cmb32k6k2euk7" path="res://main_menu/options_menu.tscn" id="4_bws42"]
+[ext_resource type="AudioStream" uid="uid://bafn6f6c78phe" path="res://assets/audio/BGM_1.mp3" id="5_3f7m4"]
 
 [node name="Main_Menu" type="Control"]
 layout_mode = 3
@@ -94,3 +95,8 @@ text = "Quit
 [node name="Options_Menu" parent="." instance=ExtResource("4_bws42")]
 visible = false
 layout_mode = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_3f7m4")
+volume_db = -6.969
+autoplay = true

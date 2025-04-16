@@ -15,10 +15,6 @@ run/main_scene="uid://bcu870nfl2jup"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
-[display]
-
-window/size/mode=3
-
 [global_group]
 
 hotkey_button=""

@@ -7,6 +7,10 @@
 [node name="Resolution_Mode_Button" instance=ExtResource("1_48gvt")]
 script = ExtResource("2_r5t1g")
 
+[node name="HBoxContainer" parent="." index="0"]
+offset_right = 844.0
+offset_bottom = 64.0
+
 [node name="Label" parent="HBoxContainer" index="0"]
 theme_override_fonts/font = ExtResource("3_7hhje")
 text = "Resolution"
