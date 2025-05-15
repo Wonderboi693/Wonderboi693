@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/tJhYorH+NM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nlmhu\\source\\repos\\dcmm\\dcmm\\dcmm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nlmhu\\.nuget\\packages\\splashkit\\1.2.11\\splashkit.1.2.11.nupkg.sha512"
+  ],
+  "logs": []
+}

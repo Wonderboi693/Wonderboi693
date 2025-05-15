@@ -1,0 +1,17 @@
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\dcmm.exe
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\dcmm.deps.json
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\dcmm.runtimeconfig.json
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\dcmm.dll
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\dcmm.pdb
+C:\Users\nlmhu\source\repos\dcmm\dcmm\bin\Debug\net8.0\SplashKitSDK.dll
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.csproj.AssemblyReference.cache
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.AssemblyInfoInputs.cache
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.AssemblyInfo.cs
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.csproj.CoreCompileInputs.cache
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.csproj.Up2Date
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.dll
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\refint\dcmm.dll
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.pdb
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\dcmm.genruntimeconfig.cache
+C:\Users\nlmhu\source\repos\dcmm\dcmm\obj\Debug\net8.0\ref\dcmm.dll
