@@ -1,0 +1,17 @@
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\4.1P Drawing Program.exe
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\4.1P Drawing Program.deps.json
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\4.1P Drawing Program.runtimeconfig.json
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\4.1P Drawing Program.dll
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\4.1P Drawing Program.pdb
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\bin\Debug\net9.0\SplashKitSDK.dll
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Dra.6D9D5DCC.Up2Date
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.dll
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\refint\4.1P Drawing Program.dll
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.pdb
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\4.1P Drawing Program.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\4.1P Drawing Program\4.1P Drawing Program\obj\Debug\net9.0\ref\4.1P Drawing Program.dll
